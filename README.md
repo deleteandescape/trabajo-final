@@ -39,7 +39,7 @@
 
 ### 1. Samuel Bayer
 
-![Referente 1] <img src=https://raw.githubusercontent.com/deleteandescape/trabajo-final/main/img/samuel_bayer/samuel_1.png/>
+![Referente 1] (https://raw.githubusercontent.com/deleteandescape/trabajo-final/main/img/samuel_bayer/samuel_1.png)
 ![Referente 1]<img src=https://raw.githubusercontent.com/deleteandescape/trabajo-final/blob/main/img/samuel_bayer/samuel_2.png/>
 ##### Es un portafolio de un cinematógrafo con diferentes subpáginas para los distintos trabajos que hace. Es muy visual y tiene un lenguaje claro.
 
