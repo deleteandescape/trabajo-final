@@ -69,7 +69,7 @@
 ### Moodboard
 
 #####
-![Moodboard](https://raw.githubusercontent.com/deleteandescape/trabajo-final/blob/main/img/moodboard.png)
+![Moodboard][https://raw.githubusercontent.com/deleteandescape/trabajo-final/blob/main/img/moodboard.png]
 
 
 
