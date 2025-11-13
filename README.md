@@ -40,7 +40,9 @@
 ### 1. Samuel Bayer
 
 ![Referente 1] <img src="https://raw.githubusercontent.com/deleteandescape/trabajo-final/main/img/samuel_bayer/samuel_1.png" alt="Referente 1" width="500">
+
 ![Referente 1] <img src="https://raw.githubusercontent.com/deleteandescape/trabajo-final/main/img/samuel_bayer/samuel_2.png" alt="Referente 1" width="500">
+
 ##### Es un portafolio de un cinematógrafo con diferentes subpáginas para los distintos trabajos que hace. Es muy visual y tiene un lenguaje claro.
 
 #### Fuente
@@ -53,6 +55,7 @@
 
 ##### 2. Tom Otte
 ![Referente 2] <img src="https://raw.githubusercontent.com/deleteandescape/trabajo-final/main/img/tom_otte/Tom_1" alt="Referente 1" width="500">
+
 ![Referente 2.2] <img src="https://raw.githubusercontent.com/deleteandescape/trabajo-final/main/img/tom_otte/Tom_2" alt="Referente 1" width="500">
 
 ##### Es un portafolio que está muy básico pero parece ordenado y no sobrecargado
