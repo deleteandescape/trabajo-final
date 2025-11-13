@@ -54,9 +54,9 @@
 
 
 ##### 2. Tom Otte
-<img src="https://raw.githubusercontent.com/deleteandescape/trabajo-final/main/img/tom_otte/Tom_1" alt="Referente 1" width="500">
+<img src="https://raw.githubusercontent.com/deleteandescape/trabajo-final/main/img/tom_otte/Tom_1.png" alt="Referente 1" width="500">
 
-<img src="https://raw.githubusercontent.com/deleteandescape/trabajo-final/main/img/tom_otte/Tom_2" alt="Referente 1" width="500">
+<img src="https://raw.githubusercontent.com/deleteandescape/trabajo-final/main/img/tom_otte/Tom_2.png" alt="Referente 1" width="500">
 
 ##### Es un portafolio que está muy básico pero parece ordenado y no sobrecargado
 #### Fuente
