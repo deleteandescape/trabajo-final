@@ -72,7 +72,7 @@
 ### Moodboard
 
 #####
-![Moodboard] <img src="https://raw.githubusercontent.com/deleteandescape/trabajo-final/main/img/Moodboard.png" alt="Referente 1" width="500">
+<img src="https://raw.githubusercontent.com/deleteandescape/trabajo-final/main/img/Moodboard.png" alt="Referente 1" width="500">
 
 
 
