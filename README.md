@@ -39,8 +39,8 @@
 
 ### 1. Samuel Bayer
 
-![Referente 1](https://raw.githubusercontent.com/deleteandescape/Trabajo-final/img/samuel_bayer_samuel_1.png)
-![Referente 1](https://raw.githubusercontent.com/deleteandescape/Trabajo-final/img/samuel_bayer_samuel_2.png)
+![Referente 1](https://raw.githubusercontent.com/deleteandescape/trabajo-final/img/samuel_bayer_samuel_1.png)
+![Referente 1](https://raw.githubusercontent.com/deleteandescape/trabajo-final/img/samuel_bayer_samuel_2.png)
 ##### Es un portafolio de un cinematógrafo con diferentes subpáginas para los distintos trabajos que hace. Es muy visual y tiene un lenguaje claro.
 
 #### Fuente
@@ -48,12 +48,12 @@
 
 | Aspectos positivos | Aspectos negativos |
 | ---------------- | ---------------- |
-| Es muy dinamico y visual. Tiene una lengua muy fuerte. Pero tarda en cargar los videos y quizás en un poco mucho con tantos videos.  |
+| Es muy dinamico y visual. Tiene una lengua muy fuerte.  | Pero tarda en cargar los videos y quizás en un poco mucho con tantos videos. |
 
 
 ##### 2. Tom Otte
-![Referente 2](https://raw.githubusercontent.com/deleteandescape/Trabajo-final/img/tom_otte/Tom_1.png)
-![Referente 2.2](https://raw.githubusercontent.com/deleteandescape/Trabajo-final/img/tom_otte/Tom_1.png)
+![Referente 2](https://raw.githubusercontent.com/deleteandescape/trabajo-final/img/tom_otte/Tom_1.png)
+![Referente 2.2](https://raw.githubusercontent.com/deleteandescape/trabajo-final/img/tom_otte/Tom_1.png)
 
 ##### Es un portafolio que está muy básico pero parece ordenado y no sobrecargado
 #### Fuente
@@ -61,15 +61,15 @@
 
 | Aspectos positivos | Aspectos negativos |
 | ---------------- | ---------------- |
-| Me gusta que es directo y "limpio". Además el courser que se tranforma en un choclo si es arriba de un video da el toque personal. Quizás puede tener más estructura o elementos llamativos que lo dan más lenguaje individual   |
+| Me gusta que es directo y "limpio". Además el courser que se tranforma en un choclo si es arriba de un video da el toque personal. | Quizás puede tener más estructura o elementos llamativos que lo dan más lenguaje individual   |
 
 
 ## Referentes
 
 ### Moodboard
 
-##### Contiene elementos que me gustaron o me gustaría incluir, colores, o cosas que me llamaron la atención de algunas paginas web que visité.
-![Moodboard](https://raw.githubusercontent.com/deleteandescape/Trabajo-final/img/moodboard.png)
+#####
+![Moodboard](https://raw.githubusercontent.com/deleteandescape/trabajo-final/img/moodboard.png)
 
 
 
