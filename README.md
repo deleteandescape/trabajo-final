@@ -101,9 +101,9 @@
 
 
 ##### 5. Jervon Monroe
-<img src="https://raw.githubusercontent.com/deleteandescape/trabajo-final/main/img/jervon_monroe_jervon_1.png" alt="Referente 1" width="500">
+<img src="https://raw.githubusercontent.com/deleteandescape/trabajo-final/main/img/jervon_monroe/jervon_1.png" alt="Referente 1" width="500">
 
-<img src="https://raw.githubusercontent.com/deleteandescape/trabajo-final/main/img/jervon_monroe/jervon_1.png" alt="Referente 2" width="500">
+<img src="https://raw.githubusercontent.com/deleteandescape/trabajo-final/main/img/jervon_monroe/jervon_2.png" alt="Referente 2" width="500">
 
 ##### Un portafolio de un actor con una estructura muy personal y un color scheme muy claro
 #### Fuente
