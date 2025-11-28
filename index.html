@@ -93,6 +93,26 @@ h1, h2, h3 {
     cursor: url('img/popcorn.png') 4 4, pointer;
 }
 
+.modal-content {
+    border-radius: 6px;
+    border: 1px solid rgba(255, 165, 0, 0.1);
+}
+
+.modal-body iframe {
+    border-radius: 4px;
+    filter: brightness(0.9);
+}
+
+.modal-body iframe:hover {
+    filter: brightness(1);
+}
+
+.modal-backdrop.show {
+    opacity: 0.8;
+    backdrop-filter: blur(4px);
+}
+
+
 </style>
 
 </head>
@@ -187,16 +207,19 @@ h1, h2, h3 {
     <!-- ROW 1 — TWO CARDS -->
     <div class="row g-4 mb-4">
 
-    <div class="col-md-4 fm-card fm-video">
-    <a href="https://youtu.be/UkTEg1ZkCqs" target="_blank">
-        <img src="img/projects/zebra.jpg" class="img-fluid w-100" alt="Zebra 16mm">
+        <div class="col-md-4 fm-card fm-video">
+
+    <a data-bs-toggle="modal" data-bs-target="#project1Modal">
+        <img src="img/projects/zebra.jpg" class="img-fluid w-100">
     </a>
-    <h5 class="mt-3">16mm analog film - “Zebra”</h5>
+
+    <h5 class="mt-3">Experimental 16mm – “Zebra”</h5>
+
 </div>
 
             <div class="col-md-4 fm-card fm-video">
-    <a href="https://www.youtube.com/watch?v=BdZLgzIUtmk" target="_blank">
-        <img src="img/projects/drag.jpg" class="img-fluid w-100" alt="Zebra 16mm">
+     <a data-bs-toggle="modal" data-bs-target="#project2Modal">
+        <img src="img/projects/drag.wbm" class="img-fluid w-100" alt="Zebra 16mm">
     </a>
                 <h5>Music Video “0815 – the most basic thing”</h5>
             </div>
@@ -204,25 +227,183 @@ h1, h2, h3 {
 
    <!-- ROW 2 — THREE CARDS -->
     <div class="row g-4">
-        
+
             <div class="col-md-4 fm-card">
-                <img src="img/projects/enmarte.jpg" class="img-fluid w-100" alt="">
+                <a data-bs-toggle="modal" data-bs-target="#project3Modal">
+                <img src="img/projects/enmarte.wbm" class="img-fluid w-100" alt="">
                 <h5>Fashion Photography “En Marte”</h5>
             </div>
 
             <div class="col-md-4 fm-card">
-                <img src="img/projects/pool.jpg" class="img-fluid w-100" alt="">
+                <a data-bs-toggle="modal" data-bs-target="#project4Modal">
+                <img src="img/projects/pool.wbm" class="img-fluid w-100" alt="">
                 <h5>Fashion Photography “Pool People”</h5>
             </div>
 
             <div class="col-md-4 fm-card">
-                <img src="img/projects/zahn.jpg" class="img-fluid w-100" alt="">
-                <h5>Editor — Web Horror Series “A Cure for Loneliness” EP3</h5>
+                <a data-bs-toggle="modal" data-bs-target="#project5Modal">
+                <img src="img/projects/zahn.wbm" class="img-fluid w-100" alt="">
+                <h5>Web Horror Series “A Cure for Loneliness” EP3</h5>
             </div>
 
         </div>
     </div>
 </section>
+
+<!-- PROJECT 1 MODAL -->
+<div class="modal fade" id="project1Modal" tabindex="-1" aria-hidden="true">
+  <div class="modal-dialog modal-xl modal-dialog-centered">
+    <div class="modal-content" style="background-color: #0D0D0D; color: #fff;">
+
+      <!-- Header -->
+      <div class="modal-header border-0">
+        <h4 class="modal-title">Experimental 16mm – “Zebra”</h4>
+        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
+      </div>
+
+      <!-- Body -->
+      <div class="modal-body">
+
+        <div class="ratio ratio-16x9 mb-3">
+          <img src="img/projects/zebra.wbm" class="img-fluid w-100" alt="Zebra 16mm">
+        </div>
+
+        <p>
+          An experimental 16mm film shot on an Arri Flex 16S, exploring the cultural center "Zebra" and its table tennis nights.
+        </p>
+
+        <p class="text-secondary">
+          <strong>Role:</strong> Director of Photography<br>
+          <strong>Year:</strong> 2025<br>
+          <strong>Location:</strong> Weimar
+        </p>
+
+      </div>
+
+      <!-- PROJECT 2 MODAL -->
+<div class="modal fade" id="project2Modal" tabindex="-1" aria-hidden="true">
+  <div class="modal-dialog modal-xl modal-dialog-centered">
+    <div class="modal-content" style="background-color: #0D0D0D; color: #fff;">
+
+      <!-- Header -->
+      <div class="modal-header border-0">
+        <h4 class="modal-title">0815 - the most basic thing</h4>
+        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
+      </div>
+
+      <!-- Body -->
+      <div class="modal-body">
+
+        <div class="ratio ratio-16x9 mb-3">
+          <img src="img/projects/drag.wbm" class="img-fluid w-100" alt="Zebra 16mm">
+        </div>
+
+        <p>
+          A music video to explore and vanish gender norms
+        </p>
+
+        <p class="text-secondary">
+          <strong>Role:</strong> Director of Photography<br>
+          <strong>Year:</strong> 2025<br>
+          <strong>Location:</strong> Weimar
+        </p>
+
+      </div>
+
+            <!-- PROJECT 3 MODAL -->
+<div class="modal fade" id="project3Modal" tabindex="-1" aria-hidden="true">
+  <div class="modal-dialog modal-xl modal-dialog-centered">
+    <div class="modal-content" style="background-color: #0D0D0D; color: #fff;">
+
+      <!-- Header -->
+      <div class="modal-header border-0">
+        <h4 class="modal-title">Fashion Photography "En Marte"</h4>
+        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
+      </div>
+
+      <!-- Body -->
+      <div class="modal-body">
+
+        <div class="ratio ratio-16x9 mb-3">
+          <img src="img/projects/enmarte.wbm" class="img-fluid w-100" alt="En Marte">
+        </div>
+
+        <p>
+          Explore the refreshing fasion of En Marte
+        </p>
+
+        <p class="text-secondary">
+          <strong>Role:</strong> Director of Photography and Producer<br>
+          <strong>Year:</strong> 2024<br>
+          <strong>Location:</strong> Barcelona
+        </p>
+
+      </div>
+
+       <!-- PROJECT 4 MODAL -->
+<div class="modal fade" id="project4Modal" tabindex="-1" aria-hidden="true">
+  <div class="modal-dialog modal-xl modal-dialog-centered">
+    <div class="modal-content" style="background-color: #0D0D0D; color: #fff;">
+
+      <!-- Header -->
+      <div class="modal-header border-0">
+        <h4 class="modal-title">Fashion Photography “Pool People”</h4>
+        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
+      </div>
+
+      <!-- Body -->
+      <div class="modal-body">
+
+        <div class="ratio ratio-16x9 mb-3">
+          <img src="img/projects/pool.wbm" class="img-fluid w-100" alt="Pool">
+        </div>
+
+        <p>
+          Creating spaces in transit
+        </p>
+
+        <p class="text-secondary">
+          <strong>Role:</strong> Director of Photography and Producer<br>
+          <strong>Year:</strong> 2024<br>
+          <strong>Location:</strong> Mallorca
+        </p>
+
+      </div>
+
+       <!-- PROJECT 5 MODAL -->
+<div class="modal fade" id="project5Modal" tabindex="-1" aria-hidden="true">
+  <div class="modal-dialog modal-xl modal-dialog-centered">
+    <div class="modal-content" style="background-color: #0D0D0D; color: #fff;">
+
+      <!-- Header -->
+      <div class="modal-header border-0">
+        <h4 class="modal-title">Web Horror Series “A Cure for Loneliness” EP3</h4>
+        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
+      </div>
+
+      <!-- Body -->
+      <div class="modal-body">
+
+        <div class="ratio ratio-16x9 mb-3">
+          <img src="img/projects/zahn.wbm" class="img-fluid w-100" alt="Tooth">
+        </div>
+
+        <p>
+          A web series we have produced, filmed and post produced in over 1.5 years at the Bauhaus Univeristy in Weimar. I was the Editor of the 3rd Episode and in the Light Team on set for Episode 1 and 6.
+        </p>
+
+        <p class="text-secondary">
+          <strong>Role:</strong> Editor<br>
+          <strong>Year:</strong> 2024<br>
+          <strong>Location:</strong> Weimar
+        </p>
+
+      </div>
+
+    </div>
+  </div>
+</div>
+
 
 
 <!-- ----------------------------------
