@@ -61,9 +61,17 @@ h1, h2, h3 { font-weight: 800; letter-spacing: -1px; }
     transform: scale(1.03);
 }
 
-/* Hover cursor for video cards */
+/* Hover cursor for video cards - first row only */
+.fm-card.video-card {
+    cursor: url('img/popcorn.webp') 16 16, pointer;
+}
+.fm-card.video-card button {
+    cursor: url('img/popcorn.webp') 16 16, pointer;
+}
+
+/* Popcorn cursor for YouTube buttons */
 .btn-youtube {
-    cursor: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='32' height='32'><text y='24' font-size='24'>🍿</text></svg>") 16 16, pointer;
+    cursor: url('img/popcorn.webp') 16 16, pointer;
 }
 
 /* Modal Styling */
@@ -214,7 +222,7 @@ h1, h2, h3 { font-weight: 800; letter-spacing: -1px; }
 <div class="row g-4 mb-4">
 
     <!-- Zebra -->
-    <div class="col-md-6 fm-card">
+    <div class="col-md-6 fm-card video-card">
         <button type="button" class="btn btn-link p-0 border-0" data-bs-toggle="modal" data-bs-target="#project1Modal" aria-label="View Zebra 16mm film project">
             <img src="img/projects/zebra.webp" alt="Zebra 16mm experimental film frame" class="img-fluid w-100" width="600" height="400" loading="lazy">
         </button>
@@ -222,7 +230,299 @@ h1, h2, h3 { font-weight: 800; letter-spacing: -1px; }
     </div>
 
     <!-- 0815 -->
-    <div class="col-md-6 fm-card">
+    <div class="col-md-6 fm-card video-card">
+        <button type="button" class="btn btn-link p-0 border-0" data-bs-toggle="modal" data-bs-target="#project2Modal" aria-label="View 0815 music video project">
+            <img src="img/projects/drag.webp" alt="0815 drag music video still" class="img-fluid w-100" width="600" height="400" loading="lazy">
+        </button>
+        <h3 class="h5 mt-3">Music Video "0815 – the most basic thing"</h3>
+    </div>
+
+</div>
+
+<!-- ROW 2 (3 CARDS) -->
+<div class="row g-4">
+
+    <!-- En Marte -->
+    <div class="col-md-4 fm-card">
+        <button type="button" class="btn btn-link p-0 border-0" data-bs-toggle="modal" data-bs-target="#project3Modal" aria-label="View En Marte fashion photography project">
+            <img src="img/projects/enmarte.webp" alt="En Marte fashion photography collection" class="img-fluid w-100" width="400" height="400" loading="lazy">
+        </button>
+        <h3 class="h5 mt-3">Fashion Photography "En Marte"</h3>
+    </div>
+
+    <!-- Pool People -->
+    <div class="col-md-4 fm-card">
+        <button type="button" class="btn btn-link p-0 border-0" data-bs-toggle="modal" data-bs-target="#project4Modal" aria-label="View Pool People fashion photography project">
+            <img src="img/projects/pool.webp" alt="Pool People fashion photography series" class="img-fluid w-100" width="400" height="400" loading="lazy">
+        </button>
+        <h3 class="h5 mt-3">Fashion Photography "Pool People"</h3>
+    </div>
+
+    <!-- Horror Episode -->
+    <div class="col-md-4 fm-card">
+        <button type="button" class="btn btn-link p-0 border-0" data-bs-toggle="modal" data-bs-target="#project5Modal" aria-label="View A Cure for Loneliness horror series project">
+            <img src="img/projects/zahn.webp" alt="A Cure for Loneliness horror series screenshot" class="img-fluid w-100" width="400" height="400" loading="lazy">
+        </button>
+        <h3 class="h5 mt-3">Web Horror Series "A Cure for Loneliness" EP3</h3>
+    </div>
+
+</div>
+</div>
+</section>
+</main>
+
+<!-- ----------------------------------
+     MODALS
+----------------------------------- -->
+
+<!-- 1 — ZEBRA -->
+<div class="modal fade" id="project1Modal" tabindex="-1" aria-labelledby="project1ModalLabel" aria-hidden="true">
+<div class="modal-dialog modal-xl modal-dialog-centered">
+<div class="modal-content">
+
+<div class="modal-header border-0">
+    <h4 class="modal-title" id="project1ModalLabel">Experimental 16mm – "Zebra"</h4>
+    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+</div>
+
+<div class="modal-body">
+
+    <img src="img/projects/zebra.webp" alt="Zebra 16mm film detailed view" class="img-fluid mb-3" width="1200" height="675" loading="lazy">
+
+    <p>An experimental 16mm film shot on an Arri Flex 16S <br>
+    Role: Director of Photography</p><!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Fixie Motion - Director of Photography and Cinematographer portfolio. Änna Schäfers specializes in film, photography and animation.">
+<meta name="theme-color" content="#000000">
+<title>Fixie Motion – Director of Photography | Änna Schäfers</title>
+
+<!-- Preconnect to external domains -->
+<link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+
+<!-- Bootstrap CSS -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<!-- Inline Critical CSS -->
+<style>
+/* ----------------------------------
+   SOFT CINEMATIC COLOR PALETTE
+----------------------------------- */
+:root {
+    --fm-black: #000000;
+    --fm-black-soft: #0D0D0D;
+    --fm-blue-dark: #0A1E32;      
+    --fm-orange-muted: #B85F10;   
+    --fm-white: #F5F5F5;
+}
+
+/* Global */
+body {
+    background-color: var(--fm-black);
+    color: var(--fm-white);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif;
+}
+h1, h2, h3 { font-weight: 800; letter-spacing: -1px; }
+.fm-title { color: var(--fm-orange-muted); }
+
+/* Buttons */
+.btn-fm {
+    background-color: var(--fm-orange-muted);
+    color: var(--fm-black);
+    font-weight: 600;
+    border-radius: 2px;
+    border: none;
+}
+.btn-fm:hover {
+    background-color: var(--fm-blue-dark);
+    color: var(--fm-white);
+}
+
+/* Cards */
+.fm-card img {
+    transition: transform 0.4s ease, filter 0.4s ease;
+    filter: brightness(0.65);
+    border-radius: 4px;
+    width: 100%;
+    height: auto;
+}
+.fm-card:hover img {
+    filter: brightness(1);
+    transform: scale(1.03);
+}
+
+/* Hover cursor for video cards - first row only */
+.fm-card.video-card {
+    cursor: url('img/popcorn.webp') 16 16, pointer;
+}
+.fm-card.video-card button {
+    cursor: url('img/popcorn.webp') 16 16, pointer;
+}
+
+/* Popcorn cursor for YouTube buttons */
+.btn-youtube {
+    cursor: url('img/popcorn.webp') 16 16, pointer;
+}
+
+/* Modal Styling */
+.modal-content {
+    background-color: #0D0D0D;
+    color: white;
+    border-radius: 6px;
+}
+
+/* Fade-in animation */
+.modal.fade .modal-dialog {
+    transform: translateY(20px);
+    opacity: 0;
+    transition: all 0.35s ease;
+}
+.modal.fade.show .modal-dialog {
+    transform: translateY(0);
+    opacity: 1;
+}
+
+/* Skip to content link for accessibility */
+.skip-link {
+    position: absolute;
+    top: -40px;
+    left: 0;
+    background: var(--fm-orange-muted);
+    color: var(--fm-black);
+    padding: 8px;
+    text-decoration: none;
+    z-index: 100;
+}
+.skip-link:focus {
+    top: 0;
+}
+</style>
+</head>
+
+<body>
+
+<!-- Skip to content link for keyboard navigation -->
+<a href="#main-content" class="skip-link">Skip to main content</a>
+
+<!-- ----------------------------------
+     HERO
+----------------------------------- -->
+<header class="py-5 text-center container">
+    <h1 class="display-1 fm-title">FIXIE MOTION</h1>
+    <p class="lead" style="color:#bbbbbb">Cinematographer · Photographer</p>
+    <a href="#portfolio" class="btn btn-fm btn-lg mt-3">View Portfolio</a>
+</header>
+
+<!-- ----------------------------------
+     ABOUT
+----------------------------------- -->
+<section id="about" class="py-5 bg-soft">
+<div class="container">
+<div class="row g-5">
+
+    <!-- LEFT SIDE -->
+    <div class="col-lg-6">
+        <h2 class="fm-title mb-4">About Me</h2>
+
+        <p>
+            Änna Schäfers dedicates themselves to film, photography and animation under the pseudonym
+            <strong>"Fixie Motion"</strong> and studies visual communication at the Bauhaus University in Weimar.
+        </p>
+
+        <p>
+            Their work is rooted in human storytelling, unconventional beauty and emotional atmosphere —
+            always seeking authentic expression through the lens.
+        </p>
+
+        <img src="img/yo.webp" alt="Änna Schäfers portrait" class="rounded-circle mt-3" width="160" height="160" loading="lazy" style="filter:brightness(0.85);">
+    </div>
+
+    <!-- RIGHT SIDE -->
+    <div class="col-lg-6">
+
+        <h3 class="mb-3">Filmography</h3>
+
+        <div class="mb-3">
+            <strong>2024 - Director of Photography</strong><br>
+            Award-winning music video "Arbeit ist heilig"
+        </div>
+
+        <div class="mb-4">
+            <strong>2025 - Camera Operator</strong><br>
+            Bachelor Film "Warten auf die Wirkung"
+        </div>
+
+        <div class="mb-5">
+            <strong>2025 - 1. Assistant Camera</strong><br>
+            Music Video "Feuerwehr"
+        </div>
+
+        <div class="mb-3">
+            <strong>2025 - Director of Photography</strong><br>
+            "0815 the most basic thing" - Drag Music Video
+        </div>
+
+        <div class="mb-4">
+            <strong>2025 - Editor of the 3rd Episode</strong><br>
+            web series "A CURE FOR LONELINESS"
+        </div>
+
+
+        <h3 class="mb-3 mt-4">Studies</h3>
+        <p><strong>Visual Communication</strong><br>Bauhaus-Universität Weimar (2023–2027)</p>
+
+        <h3 class="mb-3 mt-4">Software</h3>
+
+        <div class="mb-3">
+            <label for="premiere-progress">Premiere Pro</label>
+            <div class="progress bg-dark" role="progressbar" aria-label="Premiere Pro skill level" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+                <div id="premiere-progress" class="progress-bar" style="width: 100%; background-color: var(--fm-orange-muted);"></div>
+            </div>
+        </div>
+
+        <div class="mb-3">
+            <label for="ae-progress">After Effects</label>
+            <div class="progress bg-dark" role="progressbar" aria-label="After Effects skill level" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">
+                <div id="ae-progress" class="progress-bar" style="width: 60%; background-color: var(--fm-orange-muted);"></div>
+            </div>
+        </div>
+
+        <div class="mb-3">
+            <label for="resolve-progress">DaVinci Resolve</label>
+            <div class="progress bg-dark" role="progressbar" aria-label="DaVinci Resolve skill level" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
+                <div id="resolve-progress" class="progress-bar" style="width: 50%; background-color: var(--fm-orange-muted);"></div>
+            </div>
+        </div>
+
+    </div>
+
+</div>
+</div>
+</section>
+
+<!-- ----------------------------------
+     PORTFOLIO
+----------------------------------- -->
+<main id="main-content">
+<section id="portfolio" class="py-5">
+<div class="container">
+<h2 class="fm-title mb-5">Projects</h2>
+
+<!-- ROW 1 (2 CARDS) -->
+<div class="row g-4 mb-4">
+
+    <!-- Zebra -->
+    <div class="col-md-6 fm-card video-card">
+        <button type="button" class="btn btn-link p-0 border-0" data-bs-toggle="modal" data-bs-target="#project1Modal" aria-label="View Zebra 16mm film project">
+            <img src="img/projects/zebra.webp" alt="Zebra 16mm experimental film frame" class="img-fluid w-100" width="600" height="400" loading="lazy">
+        </button>
+        <h3 class="h5 mt-3">Experimental 16mm – "Zebra"</h3>
+    </div>
+
+    <!-- 0815 -->
+    <div class="col-md-6 fm-card video-card">
         <button type="button" class="btn btn-link p-0 border-0" data-bs-toggle="modal" data-bs-target="#project2Modal" aria-label="View 0815 music video project">
             <img src="img/projects/drag.webp" alt="0815 drag music video still" class="img-fluid w-100" width="600" height="400" loading="lazy">
         </button>
@@ -431,6 +731,20 @@ document.addEventListener("keydown", (e) => {
     if (e.key === "ArrowRight") {
         let next = (index + 1) % modalIDs.length;
         bootstrap.Modal.getInstance(document.getElementById(modalIDs[index])).hide();
+        new bootstrap.Modal(document.getElementById(modalIDs[next])).show();
+    }
+
+    // Previous modal ←
+    if (e.key === "ArrowLeft") {
+        let prev = (index - 1 + modalIDs.length) % modalIDs.length;
+        bootstrap.Modal.getInstance(document.getElementById(modalIDs[index])).hide();
+        new bootstrap.Modal(document.getElementById(modalIDs[prev])).show();
+    }
+});
+</script>
+
+</body>
+</html>
         new bootstrap.Modal(document.getElementById(modalIDs[next])).show();
     }
 
